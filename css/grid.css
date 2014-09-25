@@ -12,16 +12,23 @@
 
 .row {
 	overflow: auto;
-}
-
-[class*='col-'] {
-  float: left;
+	padding-left: 20px;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[class*='col-'] {
+ 	float: left;
+}
+
+.module {
+	margin: 20px 20px 0 0;
+	padding: 10px;
+  	background: rgba(0,0,0, 0.5);
 }
 
 .col-1-1 {width: 100%;}
